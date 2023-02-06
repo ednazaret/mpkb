@@ -1,0 +1,91 @@
+name: satefy_cage
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_bloc: ^8.1.1
+  flutter_svg_provider: ^1.0.3
+  flutter_screenutil: ^5.6.0
+  hive: ^2.2.3
+  json_serializable: ^6.5.4
+  url_launcher: ^6.1.7
+  json_annotation: ^4.7.0
+  easy_pdf_viewer: ^1.0.6
+  clipboard: ^0.1.3
+  flutter_svg: ^1.1.6
+  dotted_border: ^2.0.0+3
+  path_provider: ^2.0.11
+  page_transition: ^2.0.9
+  dotted_dashed_line: ^0.0.3
+  persistent_bottom_nav_bar_v2: ^4.2.6
+  bloc: ^8.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.2
+  flutter_gen_runner: ^5.1.0+1
+  very_good_analysis: ^3.1.0
+  hive_generator: ^2.0.0
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  image_path: "assets/app_logo.png"
+  android: true
+
+
+flutter_gen:
+  integrations:
+    flutter_svg: true
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/json/
+    - assets/json/all.json
+    - assets/images/onboarding/
+    - assets/media/
+    - assets/media/screenshots/
+    - assets/media/application/
+    - assets/media/illustrations/
+    - assets/
+    - assets/media/screenshots/Скриншот РВ.02.jpg
+    - assets/media/screenshots/Скриншот РВ.01.jpg
+    - assets/media/screenshots/Скриншот ЗЕМЛ.04.jpg
+    - assets/media/screenshots/Скриншот ЗЕМЛ.05.jpg
+    - assets/media/screenshots/Скриншот ЗЕМЛ.01.jpg
+    - assets/media/screenshots/Скриншот ЗЕМЛ.02.jpg
+    - assets/media/screenshots/Скриншот ГРУЗ.01.jpg
+    - assets/media/screenshots/Скриншот ДВИЖ.01.jpg
+    - assets/media/screenshots/Скриншот ЭЛБ.01.jpg
+    - assets/media/screenshots/Скриншот ЭЛБ.02.jpg
+    - assets/media/screenshots/Скриншот ГАЗ.01.jpg
+    - assets/media/screenshots/Скриншот ГАЗ.03.jpg
+
+  fonts:
+    - family: Sfpro
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Regular.ttf
+    - family: SfproMed
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Medium.ttf
+    - family: SfProBold
+      fonts:
+        - asset: assets/fonts/SFProDisplay-Bold.ttf
+    - family: SfProSemi
+      fonts:
+        - asset: assets/fonts/SFProDisplay-SemiBold.ttf
+
