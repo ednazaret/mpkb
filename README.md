@@ -2,7 +2,6 @@
 
 Каркас безопасности - почти как гоночный, только лучше.
 
-## Getting Started
 
 This project is a starting point for a Flutter application.
 
